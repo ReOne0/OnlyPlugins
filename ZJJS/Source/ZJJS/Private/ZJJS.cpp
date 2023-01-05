@@ -67,12 +67,12 @@ void FZJJSModule::PluginButtonClicked()
 	{
 		UKismetInternationalizationLibrary::SetCurrentLanguage("zh-Hans");
 	}
-	TSharedPtr<SWindow>MainWindow = SNew(SWindow)
-		.ClientSize(FVector2D(800, 600))
-		[
-			SNullWidget::NullWidget
-		];
-		CreateMens();
+	// TSharedPtr<SWindow>MainWindow = SNew(SWindow)
+	// 	.ClientSize(FVector2D(800, 600))
+	// 	[
+	// 		SNullWidget::NullWidget
+	// 	];
+	// 	CreateMens();
 	
 
 }

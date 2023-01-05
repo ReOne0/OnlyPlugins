@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-ZJJS.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Intermediate\Build\Win64\CorePluginsEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
-"D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Module.ZJJS.cpp.obj"
-"D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Module.ZJJS.gen.cpp.obj"
-"D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Default.rc2.res"
-/OUT:"D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\UE4Editor-ZJJS.lib"
+"D:\Projects\CProjects\CorePlugins\Intermediate\Build\Win64\CorePluginsEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Module.ZJJS.cpp.obj"
+"D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Module.ZJJS.gen.cpp.obj"
+"D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\Default.rc2.res"
+/OUT:"D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\ZJJS\UE4Editor-ZJJS.lib"

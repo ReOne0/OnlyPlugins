@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDataTable;
 class UObject;
 class AActor;
 #ifdef BLUELIB_BlueLibBPLibrary_generated_h
@@ -15,9 +16,23 @@ class AActor;
 #endif
 #define BLUELIB_BlueLibBPLibrary_generated_h
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_SPARSE_DATA
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_RPC_WRAPPERS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_34_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSDataTable_Statics; \
+	BLUELIB_API static class UScriptStruct* StaticStruct(); \
+	typedef FTableRowBase Super;
+
+
+template<> BLUELIB_API UScriptStruct* StaticStruct<struct FSDataTable>();
+
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_SPARSE_DATA
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetDataTableAsCSVFile); \
+	DECLARE_FUNCTION(execGetDataTableAsCSVString); \
+	DECLARE_FUNCTION(execFillDataTableFromJSONFile); \
+	DECLARE_FUNCTION(execFillDataTableFromJSONString); \
+	DECLARE_FUNCTION(execFillDataTableFromCSVFile); \
+	DECLARE_FUNCTION(execFillDataTableFromCSVString); \
 	DECLARE_FUNCTION(execGetAllActorOfLevel); \
 	DECLARE_FUNCTION(execStopMyAllSounds); \
 	DECLARE_FUNCTION(execSetAudioVolume); \
@@ -25,8 +40,14 @@ class AActor;
 	DECLARE_FUNCTION(execBlueLibSampleFunction);
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetDataTableAsCSVFile); \
+	DECLARE_FUNCTION(execGetDataTableAsCSVString); \
+	DECLARE_FUNCTION(execFillDataTableFromJSONFile); \
+	DECLARE_FUNCTION(execFillDataTableFromJSONString); \
+	DECLARE_FUNCTION(execFillDataTableFromCSVFile); \
+	DECLARE_FUNCTION(execFillDataTableFromCSVString); \
 	DECLARE_FUNCTION(execGetAllActorOfLevel); \
 	DECLARE_FUNCTION(execStopMyAllSounds); \
 	DECLARE_FUNCTION(execSetAudioVolume); \
@@ -34,7 +55,7 @@ class AActor;
 	DECLARE_FUNCTION(execBlueLibSampleFunction);
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_INCLASS_NO_PURE_DECLS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBlueLibBPLibrary(); \
 	friend struct Z_Construct_UClass_UBlueLibBPLibrary_Statics; \
@@ -43,7 +64,7 @@ public: \
 	DECLARE_SERIALIZER(UBlueLibBPLibrary)
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_INCLASS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_INCLASS \
 private: \
 	static void StaticRegisterNativesUBlueLibBPLibrary(); \
 	friend struct Z_Construct_UClass_UBlueLibBPLibrary_Statics; \
@@ -52,7 +73,7 @@ public: \
 	DECLARE_SERIALIZER(UBlueLibBPLibrary)
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_STANDARD_CONSTRUCTORS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBlueLibBPLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBlueLibBPLibrary) \
@@ -65,7 +86,7 @@ private: \
 public:
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_ENHANCED_CONSTRUCTORS \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBlueLibBPLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -78,28 +99,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBlueLibBPLibrary)
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_PRIVATE_PROPERTY_OFFSET
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_30_PROLOG
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_GENERATED_BODY_LEGACY \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_PRIVATE_PROPERTY_OFFSET
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_59_PROLOG
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_PRIVATE_PROPERTY_OFFSET \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_SPARSE_DATA \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_RPC_WRAPPERS \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_INCLASS \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_STANDARD_CONSTRUCTORS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_PRIVATE_PROPERTY_OFFSET \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_SPARSE_DATA \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_RPC_WRAPPERS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_INCLASS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_GENERATED_BODY \
+#define CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_PRIVATE_PROPERTY_OFFSET \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_SPARSE_DATA \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_INCLASS_NO_PURE_DECLS \
-	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_33_ENHANCED_CONSTRUCTORS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_PRIVATE_PROPERTY_OFFSET \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_SPARSE_DATA \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_INCLASS_NO_PURE_DECLS \
+	CorePlugins_Plugins_ZJJS_Source_BlueLib_Public_BlueLibBPLibrary_h_62_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class BlueLibBPLibrary."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

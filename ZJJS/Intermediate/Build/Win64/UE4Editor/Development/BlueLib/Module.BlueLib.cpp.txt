@@ -1,8 +1,8 @@
-D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\BlueLib\Definitions.BlueLib.h
-D:/Projects/CProjects/CorePlugins/TestPlugin/CorePlugins/Plugins/ZJJS/Source/BlueLib/Private/BlueLib.cpp
-D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Source\BlueLib\Public\BlueLib.h
-D:/Projects/CProjects/CorePlugins/TestPlugin/CorePlugins/Plugins/ZJJS/Source/BlueLib/Private/BlueLibBPLibrary.cpp
-D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Source\BlueLib\Public\BlueLibBPLibrary.h
+D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Development\BlueLib\Definitions.BlueLib.h
+D:/Projects/CProjects/CorePlugins/Plugins/ZJJS/Source/BlueLib/Private/BlueLib.cpp
+D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Source\BlueLib\Public\BlueLib.h
+D:/Projects/CProjects/CorePlugins/Plugins/ZJJS/Source/BlueLib/Private/BlueLibBPLibrary.cpp
+D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Source\BlueLib\Public\BlueLibBPLibrary.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
@@ -18,7 +18,7 @@ D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LevelStreaming.g
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
-D:\Projects\CProjects\CorePlugins\TestPlugin\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Inc\BlueLib\BlueLibBPLibrary.generated.h
+D:\Projects\CProjects\CorePlugins\Plugins\ZJJS\Intermediate\Build\Win64\UE4Editor\Inc\BlueLib\BlueLibBPLibrary.generated.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Public\AudioDevice.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
 D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/QuartzSubscription.h
