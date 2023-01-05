@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZJJS.cpp.obj": [
+			"MyActor.cpp.obj",
+			"ZJJS.cpp.obj",
+			"ZJJSCommands.cpp.obj",
+			"ZJJSStyle.cpp.obj"
+		],
+		"Module.ZJJS.gen.cpp.obj": [
+			"MyActor.gen.cpp.obj",
+			"ZJJS.init.gen.cpp.obj"
+		]
+	}
+}

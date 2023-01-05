@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueLib.cpp.obj": [
+			"BlueLib.cpp.obj",
+			"BlueLibBPLibrary.cpp.obj"
+		],
+		"Module.BlueLib.gen.cpp.obj": [
+			"BlueLib.init.gen.cpp.obj",
+			"BlueLibBPLibrary.gen.cpp.obj"
+		]
+	}
+}
